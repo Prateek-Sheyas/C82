@@ -25,7 +25,6 @@ function my_mousemove(e)
             ctx.beginPath();
             ctx.strokeStyle = color;
             ctx.lineWidth = width_of_line;
-            ctx.moveTo(last_position_of_X, last_position_of_Y);
             ctx.arc(current_position_of_mouse_x,current_position_of_mouse_y,40,0,2*Math.PI);
             ctx.stroke();
         }
